@@ -17,3 +17,8 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 ?>
+
+<?php get_header(); ?>
+<?php get_template_part('loop'); ?>
+<?php get_sidebar(); ?>
+<?php get_footer(); ?>
