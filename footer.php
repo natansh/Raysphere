@@ -17,4 +17,20 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 ?>
-<p> The footer has been included. </p>
+<div id="navbottomgradient"></div>
+			</div><!-- #main -->
+
+			<div id="footer">
+				<div id="credits"><p>Ions of Imagination 1.0 &bull; Designed and developed by Natansh Verma.</p></div>
+				<div id="macwordpress"></div>
+			</div>
+		</div><!-- wrapper -->
+		<?php
+			/* Always have wp_footer() just before the closing </body>
+			 * tag of your theme, or you will break many plugins, which
+			 * generally use this hook to reference JavaScript files.
+			 */		
+			wp_footer();
+		?>
+	</body>
+</html>
